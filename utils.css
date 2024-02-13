@@ -1,25 +1,38 @@
-.text-center{
-  text-align: center;
-  color: white;
+/* Styles for centering text */
+.text-center {
+  text-align: center; /* Aligns text to the center */
+  color: white; /* Text color */
 }
 
-.mx-auto{
-  margin: auto;
-}
-.flex{
-  display: flex;
-}
-.flex-col{
-  flex-direction: column;
+/* Styles for centering elements horizontally */
+.mx-auto {
+  margin: auto; /* Centers the element horizontally */
 }
 
-.items-center{
-  align-items: center;
+/* Styles for flexbox layout */
+.flex {
+  display: flex; /* Enables flexbox layout */
 }
-.btn-clr{
-  background: yellow;
+
+/* Styles for flexbox layout in column direction */
+.flex-col {
+  flex-direction: column; /* Sets the flex direction to column */
 }
-.btn-sign{
-  background-color: #d19592;
-  background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
+
+/* Styles for aligning items in the center */
+.items-center {
+  align-items: center; /* Aligns items vertically at the center */
+}
+
+/* Button style for clearing */
+.btn-clr {
+  background: white; /* Background color */
+  color: black; /* Text color */
+  border-color: black; /* Border color */
+}
+
+/* Button style for special signs */
+.btn-sign {
+  background-color: orange; /* Background color */
+  color: white; /* Text color */
 }

@@ -1,36 +1,41 @@
+/* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-
+/* Setting styles for the entire HTML document */
 html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Splash', cursive;
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+  margin: auto; /* Centering content horizontally */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  font-family: 'Splash', cursive; /* Setting font family */
+  background-color: #000000; /* Background color */
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%); /* Background gradient */
 }
 
-.button{
-  padding: 20px ;
-  width: 66px;
-  margin: 0 3px;
-  border: 2px solid black;
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #2d7dd2;
-  background-image: linear-gradient(315deg, #2d7dd2 0%, #97cc04 74%);
-  font-size:20px;
-  
+/* Styles for buttons */
+.button {
+  padding: 20px; /* Padding around the button content */
+  width: 66px; /* Button width */
+  margin: 0 3px; /* Spacing between buttons */
+  border: 2px solid black; /* Border */
+  border-radius: 5px; /* Border radius */
+  font-family: 'Roboto', sans-serif; /* Font family */
+  background-color: black; /* Background color */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  border-radius: 50px; /* Border radius (for circle buttons) */
 }
+
+/* Styles for rows */
 .row {
-  margin: 8px 0;
+  margin: 8px 0; /* Spacing between rows */
 }
 
-.row input{
-  width:291px;
-  font-size: 20px;
-  margin:0;
-  padding: 10px 0px;
-  border: 2px solid black;
-  border-radius: 5px;
-  
+/* Styles for input field */
+.row input {
+  width: 291px; /* Input field width */
+  font-size: 20px; /* Font size */
+  margin: 0; /* Reset margin */
+  padding: 10px 0px; /* Padding */
+  border: 2px solid black; /* Border */
+  border-radius: 5px; /* Border radius */
 }

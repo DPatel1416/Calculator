@@ -2,43 +2,60 @@
 <html>
 
 <head>
+  <!-- Meta tags for character set and viewport -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <!-- Title of the page -->
   <title>My Calculator</title>
+  <!-- Link to external stylesheet for general styles -->
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Link to external stylesheet for utility classes -->
   <link href="utils.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+  <!-- Heading for the calculator -->
   <h1 class="text-center">Welcome to My Calculator!</h1>
+  <!-- Container for the calculator -->
   <div class="container flex flex-col items-center mx-auto m-w-20">
+    <!-- Row for the input field -->
     <div class="row">
+      <!-- Input field for displaying calculations -->
       <input class="input" type="text"></input>
     </div>
+    <!-- Rows for the buttons -->
     <div class="row">
+      <!-- Button for clearing the input -->
       <button class="button btn-clr">AC</button>
+      <!-- Button for percentage calculation -->
       <button class="button btn-sign">%</button>
+      <!-- Button for memory addition -->
       <button class="button btn-sign">M+</button>
+      <!-- Button for memory subtraction -->
       <button class="button btn-sign">M-</button>
     </div>
+    <!-- Row for numeric buttons and addition operator -->
     <div class="row">
       <button class="button">7</button>
       <button class="button">8</button>
       <button class="button">9</button>
       <button class="button btn-sign">+</button>
     </div>
+    <!-- Row for numeric buttons and subtraction operator -->
     <div class="row">
       <button class="button">4</button>
       <button class="button">5</button>
       <button class="button">6</button>
       <button class="button btn-sign">-</button>
     </div>
+    <!-- Row for numeric buttons and division operator -->
     <div class="row">
       <button class="button">3</button>
       <button class="button">2</button>
       <button class="button">1</button>
       <button class="button btn-sign">/</button>
     </div>
+    <!-- Row for decimal point, zero, equal sign, and multiplication operator -->
     <div class="row">
       <button class="button">.</button>
       <button class="button">0</button>
@@ -47,6 +64,7 @@
     </div>
   </div>
 
+  <!-- Script tag to include external JavaScript file for calculator functionality -->
   <script src="script.js"></script>
 </body>
 
