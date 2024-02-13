@@ -1,0 +1,25 @@
+.text-center{
+  text-align: center;
+  color: white;
+}
+
+.mx-auto{
+  margin: auto;
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+.btn-clr{
+  background: yellow;
+}
+.btn-sign{
+  background-color: #d19592;
+  background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
+}
